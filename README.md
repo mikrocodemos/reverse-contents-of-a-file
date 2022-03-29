@@ -33,9 +33,10 @@ int main()
         printf("%c", ch);
     }
     printf("\n");
+    printf("press any key");
     getch();
 
-printf("Enter another filename with extension: ");
+printf("\nEnter another filename with extension: ");
 gets(fname);
 fp2 = fopen(fname, "r");
 ch = fgetc(fp);
